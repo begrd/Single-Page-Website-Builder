@@ -1,0 +1,250 @@
+input::-webkit-input-placeholder{
+  color:rgb(233, 233, 233);
+}
+input:-moz-placeholder {
+  color:rgb(233, 233, 233);
+}
+/*login*/
+  html {
+    height: 100%;
+}
+/*registracijos sistemos stilizacija*/
+.desinePuse{
+  background:url("backgroundLogin.jpg");
+  background-size:cover;
+  
+  height:100vh;
+}
+.pagrindinisH1{
+  
+  color:#fff;
+ font-family: 'Montserrat'!important;
+ font-size:25px;
+  font-weight:400;
+}
+
+.centerContent{
+
+  height:100vh;
+  display:block;
+  text-align: center;
+  }
+  .centerContent.suAtitraukimu{
+    padding-top:160px;
+  }
+.pagrindinisH2{
+  padding-top:5px;
+  color:#fff;
+ font-family: 'Montserrat'!important;
+ font-size:35px;
+  font-weight:400;
+}
+.tekstasRegPrisi{
+  padding-top:5px;
+  color:#fff;
+ font-family: 'Montserrat'!important;
+ font-size:15px;
+  font-weight:400;
+}
+.tekstasRegPrisi_2{
+  color:#66b7ff;
+  font-family: 'IBM Plex Sans'!important;
+  font-weight:500;
+  font-size:16px;
+padding-bottom:50px;
+}
+
+.ivestis_1{
+  color:#75d6ce;
+  font-family: 'IBM Plex Sans'!important;
+  font-weight:400;
+  width:300px;
+  height:50px;
+  margin-top:15px;
+  padding:10px;
+  border:none;
+  background:none;
+  border-bottom:2px solid #e8e8e8;
+  margin-bottom:10px;
+  box-shadow:0px 6px 20px rgba(197, 197, 197, 0.2);
+  transition:1s all;
+}
+.ivestis_1:hover{
+  cursor:pointer;
+  border-bottom:2px solid #66b7ff;
+  width:340px;
+  transition:1s all;
+}
+.regLogMygtukas{
+  border:3px solid #66b7ff;
+  background:none;
+  color:#66b7ff;
+  font-weight:500;
+  height:50px;
+  margin-top:30px;
+  width:180px;
+  box-shadow:0px 6px 8px rgba(197, 197, 197, 0.4);
+  transition:0.5s all;
+}
+.regLogMygtukas:hover{
+  cursor:pointer;
+background:#66b7ff;
+color:#fff;
+width:190px;
+transition:0.5s all;
+}
+.main{
+  padding-top:160px;
+  width:100%;
+  text-align:center;
+  height:500px;
+}
+
+.main2{
+  padding-top:60px;
+  width:100%;
+  text-align:center;
+  height:500px;
+}
+.imageLogo{
+  margin-top:20px;
+  height:200px;
+}
+i{
+font-size:100px!important;
+color:#fff;
+
+}
+.logo{
+  margin-top:160px;
+  
+}
+  
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 .125em transparent;
+  transition: all .25s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: .5;
+}
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 .125em transparent;
+  transition: all .25s;
+}
+
+input:focus::-moz-placeholder {
+  opacity: .5;
+}
+
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 .125em transparent;
+  transition: all .25s;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: .5;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+input {
+padding:0;
+  border:none;
+text-align: center;
+height:4em;
+  width: 15em;
+  color:#344168;
+  font-family:'Montserrat';
+  font-weight:400;
+  border-bottom:2px solid rgba(180, 255, 255, 1);
+}
+
+.antraste{
+    text-align: center;
+    font-family:'Montserrat';
+    letter-spacing: -0.5px;
+    padding-bottom:50px;
+}
+.centerThis{
+    padding-top:150px;
+    text-align: center;
+    margin:0;
+}
+.navButton{
+    background:#aaf3f7;
+    width:150px;
+    height:40px;
+    margin-top:10px;
+    box-shadow:2px 2px 2px #fff;
+    border-radius:2px;
+  
+  }
+
+  /*pagrindinis*/
+
+  .regLogMygtukas2{
+    border:3px solid #66b7ff;
+    background:none;
+    color:#66b7ff;
+    font-weight:500;
+    height:50px;
+    margin-top:0px;
+    margin-bottom:10px;
+    width:180px;
+    box-shadow:0px 6px 8px rgba(197, 197, 197, 0.4);
+    transition:0.5s all;
+  }
+  .regLogMygtukas2:hover{
+    cursor:pointer;
+  background:#66b7ff;
+  color:#fff;
+  width:190px;
+  transition:0.5s all;
+  }
+  html, body, .desinePuse {
+    min-height: 100% !important;
+    height: 100%;
+
+}
+  .centerContent2{
+    
+  padding-top:100px;
+  text-align: center;
+  }
+
+  .tiesus p {
+    display:inline-block!important;
+  }
+
+  #vartotojas{
+    color:green;
+  }
+  .ikona{
+    margin-left:5px;
+    color:green;
+    font-size:15px!important;    
+  }
+ .tiesus2{
+  width: 550px;
+  text-align: center;
+  margin: 0 auto;
+ }
+ .tiesus2 input{
+   float:left;
+ }
+
+ .tiesinsim{
+   width:100%;
+ }
+ .ikona2{
+   font-size:55px!important;
+   color:rgb(88, 141, 255);
+ }
