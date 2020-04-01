@@ -19,11 +19,11 @@ session_start();
 
 <div class="row">
 
-<div class="col-5 desinePuse">
+<div class="col-5 extraCss">
 <div class="centerContent">
 <i class="fa fa-briefcase logo"></i>
-<h1 class="pagrindinisH1">Portfis</h1>
-<h1 class="pagrindinisH2">Sveiki sugrįžę į portfį!</h1>
+<h1 class="pagrindinisH1">Single page website builder</h1>
+<h1 class="pagrindinisH2">Welcome back!</h1>
 </div>
 </div>
 
@@ -32,10 +32,10 @@ session_start();
 <div class="main">
 <form method="post" action="login_process.php" class="registracijosForma">
 
-<input placeholder="Slapyvardis" name="vartotojas" class="ivestis_1"/><br>
-<input placeholder="Slaptažodis" type="password" name="pass" class="ivestis_1"><br>
-<button type="submit" name="jungtis" class="regLogMygtukas"> Prisijungti</button><br><br>
-<p class="tekstasRegPrisi_2">Dar nesi narys? <a href="register.php">Spausk čia</a></p>
+<input placeholder="Username" name="user" class="ivestis_1"/><br>
+<input placeholder="Password" type="password" name="pass" class="ivestis_1"><br>
+<button type="submit" name="jungtis" class="regLogMygtukas"> Login</button><br><br>
+<p class="tekstasRegPrisi_2">Don't have an account?<a href="register.php">Click here</a></p>
 </div>
 
 
@@ -46,4 +46,5 @@ session_start();
 </div>
 </div>
     </div>
+
 
