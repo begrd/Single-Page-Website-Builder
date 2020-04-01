@@ -33,7 +33,7 @@ $slaptazodis = $_POST['pass'];
                         session_start();
                         $_SESSION['vartotojoID']=$row['id'];
                         $_SESSION['user']=$row['username'];
-                        header("Location: ../bakalaurinis_portfis/pagrindinis.php");
+                        header("Location: ../pagrindinis.php");
                         exit();
                     }
                     else{
