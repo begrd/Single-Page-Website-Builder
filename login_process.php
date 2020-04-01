@@ -5,11 +5,11 @@ if(isset($_POST['jungtis'])){
 require 'db.php';
 
 
-$vartotojoVardas = $_POST['vartotojas'];
+$vartotojoVardas = $_POST['user'];
 $slaptazodis = $_POST['pass'];
 
     if(empty($vartotojoVardas) || empty($slaptazodis)){
-        header("Location: ..login.php?tustiLaukai");
+        header("Location: ..login.php?emptyFields");
         exit();
     }
     else{
@@ -32,7 +32,7 @@ $slaptazodis = $_POST['pass'];
                     else if($pwdCheck == true){
                         session_start();
                         $_SESSION['vartotojoID']=$row['id'];
-                        $_SESSION['vartotojas']=$row['username'];
+                        $_SESSION['user']=$row['username'];
                         header("Location: ../bakalaurinis_portfis/pagrindinis.php");
                         exit();
                     }
@@ -42,7 +42,7 @@ $slaptazodis = $_POST['pass'];
                     }
                 }
                 else{
-                    header("Location: ..login.php?klaida=nerastasvartotojas");
+                    header("Location: ..login.php?klaida=userNotFound");
                     exit();
                 }
         }
